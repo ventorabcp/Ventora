@@ -50,18 +50,59 @@ const EventDetail = () => {
         {/* Stat Cards */}
         <div className="detail-cards-grid">
           <div className="detail-stat-card">
-            <h3>Registration Fee</h3>
+            <h3>📅 Date</h3>
+            <p>{event.date}</p>
+          </div>
+          <div className="detail-stat-card">
+            <h3>📍 Venue</h3>
+            <p>{event.venue}</p>
+          </div>
+          <div className="detail-stat-card">
+            <h3>⏰ Start Time</h3>
+            <p>{event.startTime}</p>
+          </div>
+          <div className="detail-stat-card">
+            <h3>👥 Team Size</h3>
+            <p>{event.teamSize}</p>
+          </div>
+          <div className="detail-stat-card">
+            <h3>💰 Registration Fee</h3>
             <p>{event.fee}</p>
           </div>
           <div className="detail-stat-card">
-            <h3>Registration Ends</h3>
-            <p>{event.registrationEnd}</p>
-          </div>
-          <div className="detail-stat-card">
-            <h3>Prizes</h3>
+            <h3>🏆 Prize Pool</h3>
             <p>{event.prizes}</p>
           </div>
         </div>
+
+        {/* Prize Breakdown (VR event) */}
+        {event.prizeBreakdown && (
+          <div className="event-description" style={{ marginBottom: '8px' }}>
+            <h3 style={{ marginBottom: '12px' }}>🏅 Prize Breakdown</h3>
+            <div className="detail-cards-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))' }}>
+              {event.prizeBreakdown.map((prize, i) => (
+                <div key={i} className="detail-stat-card">
+                  <h3>{prize.place}</h3>
+                  <p>{prize.amount}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Contact (VR event) */}
+        {event.contactName && (
+          <div className="detail-cards-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', marginTop: '0' }}>
+            <div className="detail-stat-card">
+              <h3>📞 Event Head</h3>
+              <p>{event.contactName}</p>
+            </div>
+            <div className="detail-stat-card">
+              <h3>📱 Phone</h3>
+              <p>{event.contactPhone}</p>
+            </div>
+          </div>
+        )}
 
         {/* Description / Rounds */}
         <div className="event-description">
