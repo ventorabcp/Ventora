@@ -1,5 +1,5 @@
 // VENTORA Brand New Day 2026 — All Event Data
-import { img1, img2, img3, img4, img5, img6, img7 } from '../assets/images';
+import { img1, img2, img3, img4, img5, img6, img7, imgB, imgG } from '../assets/images';
 
 export const events = [
   {
@@ -14,20 +14,83 @@ export const events = [
     startTime: '9:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹5000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSf4LF8J0GBs4fYphoroCLFyAqYPnTp7Ck5WWgSw2Tm7rZoHuw/viewform',
     description: 'The Ad Mad Show is a fun-filled and creative marketing competition where participants showcase their advertising, communication, and presentation skills by creating and performing an engaging advertisement for a product, service, or social cause. The event encourages innovation, teamwork, confidence, and spontaneity while giving students an opportunity to think like professional marketers and impress the audience with their creativity.',
     rounds: [
       {
-        title: 'Rules & Guidelines',
+        title: 'Team Composition',
         bullets: [
-          'The event is open to all registered participants of the Fest.',
-          'Participants must compete in teams of 2–4 members.',
-          'Each team will be given a product, service, or theme (or as specified by the organizers).',
-          'The advertisement must be original, creative, and suitable for all audiences.',
-          'The performance should be completed within the allotted time limit.',
-          'Simple props and costumes are allowed, but hazardous materials or offensive content are strictly prohibited.',
-          'The judges\' decision will be final and binding.',
-          'Teams will be evaluated based on creativity, originality, teamwork, presentation, communication, and overall impact.',
+          'Each team: 2–4 members.',
+          'Multiple teams from the same institution are allowed.',
+          'Registration fee: ₹250 per team.',
+        ],
+      },
+      {
+        title: 'Product Allotment',
+        bullets: [
+          'Product will be allotted on September 2 at 9:30 AM.',
+          'Teams must create their advertisement based on the allotted product.',
+        ],
+      },
+      {
+        title: 'Submission',
+        bullets: [
+          'Advertisement video must be submitted on September 3.',
+          'Exact submission time and method will be communicated after registration.',
+        ],
+      },
+      {
+        title: 'Video Requirements',
+        bullets: [
+          'Minimum duration: 1.5 minutes.',
+          'Format: MP4.',
+          'Both portrait and landscape orientations are accepted.',
+        ],
+      },
+      {
+        title: 'Content & Language',
+        bullets: [
+          'Creative styles such as comedy, drama, emotion, satire, or sarcasm are allowed.',
+          'Language: English or Malayalam.',
+        ],
+      },
+      {
+        title: 'Originality & Participation',
+        bullets: [
+          'Video must be original and created by the team.',
+          'Plagiarized or AI-generated videos will lead to disqualification.',
+          'All team members must appear or make a meaningful contribution.',
+        ],
+      },
+      {
+        title: 'Content Restrictions',
+        bullets: [
+          'No vulgar, political, religious, offensive, discriminatory, or inappropriate content.',
+          'Violations may result in disqualification.',
+        ],
+      },
+      {
+        title: 'Judging Criteria — 100 Marks',
+        bullets: [
+          'Creativity & Originality — 25 marks',
+          'Script, Dialogue & Messaging — 25 marks',
+          'Acting, Presentation & Selling Ability — 25 marks',
+          'Editing & Technical Execution — 25 marks',
+        ],
+      },
+      {
+        title: 'File Submission & Promotion',
+        bullets: [
+          'File name format: TeamName_ProductName.',
+          'Submit via the specified Google Drive/WhatsApp.',
+          'Submitted videos may be featured on the B.Com Professional Instagram page and event sponsors\' pages.',
+        ],
+      },
+      {
+        title: 'Final Decision',
+        bullets: [
+          'The decision of the judging panel and event coordinators is final and binding.',
+          'Failure to follow the rules may result in disqualification.',
         ],
       },
     ],
@@ -44,7 +107,7 @@ export const events = [
     startTime: '9:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹2000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScrJlIauSuKYZ_x1VaZ2PwIEPtZCNu1kGSiYkfbefk69nX5mg/viewform?usp=send_form',
     description: 'Live Wire is an engaging and fast-paced news presentation event designed to test participants\' awareness, creativity, teamwork, and communication skills. Throughout the fest, participating teams will track and gather every notable happening — from the opening ceremony to the closing moments — and turn it into a compelling news presentation, giving the event a live, "on-air" feel.',
     rounds: [
       {
@@ -78,7 +141,7 @@ export const events = [
     startTime: '9:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹5000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSd2LKtTW32woj8AfiO3TPCD_XMqdrc_eMNKG_Lh6KBcPwz_OA/viewform',
     description: 'Bizverse Rivalry is an exciting business plan presentation game where participants transform innovative ideas into compelling business concepts. Teams will present their business plans before a panel, demonstrating their entrepreneurial thinking, creativity, market awareness, financial understanding, and presentation skills. The game challenges participants to think like real entrepreneurs, defend their ideas, and convince the judges that their business deserves to succeed.',
     rounds: [
       {
@@ -113,7 +176,7 @@ export const events = [
     startTime: '9:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹5000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSeUP7K9PUOV6sBO6DtC-C-S6Xk-kRkS9kui0zd916Os5ievCg/viewform',
     description: 'Connectopia is an engaging and interactive HR-themed game designed to test participants\' communication, teamwork, problem-solving, leadership, decision-making, and interpersonal skills. Through a series of fun and challenging HR-based activities, participants will experience real-world workplace situations in a competitive and entertaining environment.',
     rounds: [
       {
@@ -147,7 +210,7 @@ export const events = [
     startTime: '9:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹5000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSeFNSaNqiqqTtC6CcLkymJK3zWjXAh4lAi6p_u12LYm8T_ZyQ/viewform',
     description: 'Ladder to Legacy is an exciting and interactive treasure hunt designed to test participants\' teamwork, observation, logical thinking, problem-solving, communication, and decision-making skills. Through a series of challenging clues, puzzles, and engaging tasks, participants will race against time, overcome obstacles, and climb each step towards the ultimate treasure. The game combines strategy, creativity, teamwork, and excitement, creating a thrilling experience where every clue brings the team one step closer to leaving their legacy. Every clue is a challenge. Every step takes you closer to the legacy!',
     rounds: [
       {
@@ -179,7 +242,7 @@ export const events = [
     startTime: '9:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹2000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScI_ynWLOLMEBWwrEP-JscifEcoTycZZb7vTdninTmHHjFBKw/viewform?usp=send_form',
     description: 'Capital Clash Business Quiz: Battle of the Business Brains! Ready to test your commercial instincts against the sharpest minds? Step out of the classroom and into a high-octane arena where strategy, speed, and real-world awareness collide! The Business Quiz is an intense, fast-paced showdown designed to challenge your ultimate corporate quotient. From cracking secret logo details and legendary ad campaigns to pinpointing market-shaping moves and visionary founders, this event tests your mastery over the global brands that rule the market.',
     rounds: [
       {
@@ -221,7 +284,7 @@ export const events = [
     ],
     contactName: 'Balaram K',
     contactPhone: '+91 94478 27988',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSf7SaS8NukxNegrb7AvVfGpF1FfuknFO3fDLVcyE53pNovLhw/viewform',
     description: 'Experience the thrill of Virtual Reality in an action-packed shooter challenge! Compete in Epic Roller Coasters – Shooter Mode, test your reflexes, accuracy, and aim.',
     rounds: [
       {
@@ -241,7 +304,7 @@ export const events = [
     id: 8,
     name: 'Comic Con Couture',
     tagline: 'Dress up. Stand out. Rule the stage.',
-    image: img7,
+    image: imgG,
     fee: '₹700 per team',
     teamSize: 'Up to 10 members per team',
     date: 'September 3, 2026',
@@ -249,7 +312,7 @@ export const events = [
     startTime: '11:30 AM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹40000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSd_Ey4qEjWcmoDYTihfRYe3ZflU9GriX5tbePwo8wyPyCw63A/viewform',
     description: 'COMIC CON COUTURE is an electrifying fashion show where participants blend superhero identity with modern professional style. Only first 10 teams to register will be allowed to participate.',
     rounds: [
       {
@@ -268,12 +331,21 @@ export const events = [
       {
         title: 'Theme Guidelines',
         bullets: [
-          'Participants must blend: Superhero attire (main focus) + Professional/Modern Fashion (supporting element) + Creative & Stylish Presentation.',
+          'Participants must present their outfit by blending: Superhero attire (main focus) + Professional/Modern Fashion (supporting element) + Creative & Stylish Presentation.',
+          'The costume must clearly represent the given theme. Any deviation from the declared theme may lead to disqualification.',
+        ],
+      },
+      {
+        title: 'Theme Specifications',
+        bullets: [
+          'The outfit must be inspired by a superhero.',
           'Superheroes can be from Marvel or DC Universe.',
           'The superhero identity should be clearly recognizable through colours, symbols, patterns, accessories, or signature features.',
-          'Participants can modify and creatively redesign the original superhero costume.',
+          'Superhero elements must be the dominant part of the outfit.',
           'The final look should be modern, stylish and runway-appropriate.',
-          'The costume must clearly represent the Comic-Con-Couture theme — major deviation may lead to disqualification.',
+          'The outfit should represent a superhero in a modern professional world.',
+          'Creativity in combining superhero + professional fashion will be encouraged.',
+          'The costume must clearly represent the Comic-Con-Couture theme. Major deviation from the theme may lead to disqualification.',
         ],
       },
       {
@@ -282,8 +354,9 @@ export const events = [
           'Costumes must be decent, modest, and appropriate for a college audience. Attire deemed overly revealing is strictly prohibited.',
           'Offensive, obscene, politically sensitive, or culturally disrespectful attire is strictly prohibited.',
           'Costumes must not contain sharp objects, flammable materials, glass, or any item that may endanger participants or the audience.',
+          'Scrap fashion entries must be created predominantly from recycled or waste materials. Commercially purchased costumes will not be considered under this category.',
+          'Participants must ensure that their costumes are secure and do not obstruct movement or pose safety hazards.',
           'Dresses longer than knee length must be worn with stockings.',
-          'Participants must ensure that their costumes are secure and do not obstruct movement.',
         ],
       },
       {
@@ -306,13 +379,23 @@ export const events = [
           'Grooming & Overall Impact',
         ],
       },
+      {
+        title: 'Code of Conduct',
+        bullets: [
+          'Participants are expected to maintain professionalism and respect throughout the event.',
+          'Vulgar gestures, offensive language, or inappropriate performances will result in immediate disqualification.',
+          'Any attempt to influence judges or violate event rules will lead to disciplinary action.',
+          'The organizing committee reserves the right to modify the rules or disqualify any participant whose conduct is deemed inappropriate.',
+          'By participating in the event, all contestants agree to abide by these rules and uphold the dignity and spirit of the competition.',
+        ],
+      },
     ],
   },
   {
     id: 9,
     name: 'Symphora',
     tagline: 'Feel the rhythm. Live the music.',
-    image: img6,
+    image: imgB,
     fee: '₹700 per team',
     teamSize: '3–10 members per band',
     date: 'September 3, 2026',
@@ -320,29 +403,45 @@ export const events = [
     startTime: '3:00 PM',
     registrationEnd: '1 Sep 2026',
     prizes: '₹35000 prize pool',
-    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuONigAnlX4A6Dr_40o_rnMTzzzmnWceF714ZkyYfzJIoC0A/viewform',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSegzGo14zYJbPj_jdlmgsbiG4h-5tKLX2Wis7lC4Jcm2M58lg/viewform?usp=send_form',
     description: 'SYMPHORA is an Inter-College Music Band Competition open to students from recognized colleges/universities. Each college may register only one band. Bands may perform in any genre or language. At least one live instrument must be used and original compositions are encouraged. Lip-syncing is strictly prohibited.',
     rounds: [
       {
-        title: 'Eligibility & Team Composition',
+        title: 'Eligibility',
         bullets: [
           'The competition is open only to students currently enrolled in recognized colleges/universities.',
           'Each college may register only one band.',
-          'Minimum 3 members and maximum 10 members per band.',
-          'All performers on stage must be registered participants.',
-          'Substitutions are not permitted after registration closes.',
           'Valid college ID cards must be produced during registration.',
         ],
       },
       {
-        title: 'Performance & Instrument Rules',
+        title: 'Team Composition',
         bullets: [
-          'Performance time: 10 minutes. Setup and sound check: 15 minutes.',
+          'Minimum 3 members and maximum 10 members per band.',
+          'All performers on stage must be registered participants.',
+          'Substitutions are not permitted after registration closes.',
+        ],
+      },
+      {
+        title: 'Performance Duration',
+        bullets: [
+          'Performance time: 10 minutes.',
+          'Setup and sound check: 15 minutes.',
           'Exceeding the allotted time may result in penalties or disqualification.',
+        ],
+      },
+      {
+        title: 'Music & Performance',
+        bullets: [
           'Bands may perform in any genre or language.',
           'At least one live instrument must be used.',
           'Original compositions are encouraged.',
           'Lip-syncing is strictly prohibited.',
+        ],
+      },
+      {
+        title: 'Instruments & Equipment',
+        bullets: [
           'Participants must bring their own instruments and accessories.',
           'Basic drum kit, microphones, and amplifiers will be provided by the organizers.',
           'Any damage caused to provided equipment must be compensated by the concerned team.',
@@ -367,11 +466,19 @@ export const events = [
         ],
       },
       {
-        title: 'Penalty Clause',
+        title: 'Code of Conduct',
         bullets: [
-          'Exceeding time limit: -5 marks per minute.',
-          'Use of prohibited tracks: Immediate disqualification.',
-          'Unsportsmanlike conduct: Immediate disqualification.',
+          'Participants must maintain discipline throughout the event.',
+          'Any misconduct towards judges, organizers, or other teams will result in disqualification.',
+          'The organizing committee reserves the right to modify rules if necessary.',
+        ],
+      },
+      {
+        title: 'Selection',
+        bullets: [
+          'The decision of the screening panel will be final.',
+          'Selected bands will advance to the final on-stage competition.',
+          'The organizing committee reserves the right to limit the number of finalists.',
         ],
       },
       {
@@ -380,8 +487,14 @@ export const events = [
           'Reporting time must be strictly followed.',
           'Bands should be ready backstage at least 15 minutes before their slot.',
           'Participation certificates will be awarded to all competing teams.',
-          'The decision of the screening panel will be final.',
-          'The organizing committee reserves the right to limit the number of finalists.',
+        ],
+      },
+      {
+        title: 'Penalty Clause',
+        bullets: [
+          'Exceeding time limit: -5 marks per minute.',
+          'Use of prohibited tracks: Immediate disqualification.',
+          'Unsportsmanlike conduct: Immediate disqualification.',
         ],
       },
     ],
