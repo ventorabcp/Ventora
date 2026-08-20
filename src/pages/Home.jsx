@@ -292,7 +292,7 @@ const Home = () => {
                 <WebStrandIcon />
                 <div>
                   <div className="contact-label">WhatsApp</div>
-                  <a href="https://wa.me/8921900821" target="_blank" rel="noopener noreferrer" className="contact-value">+91 8921900821</a>
+                  <a href="https://wa.me/8921900821" target="_blank" rel="noopener noreferrer" className="contact-value">8921900821</a>
                 </div>
               </div>
 
